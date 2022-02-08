@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Clevvar.com Build Using React.js. This app is under development. happy
+          Clevvar.com Build Using React.js. This app is under development. happy test
         </p>
         <a
           className="App-link"
