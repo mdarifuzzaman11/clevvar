@@ -1,19 +1,43 @@
 
+<<<<<<< HEAD
 name: Build and Deploy React App to GitHub Pages
+=======
+
+name: Easy Build and Deploy React App to GitHub Pages
+
+
+>>>>>>> 60a29fb37c679adc4f2472c156fa95296a55ebd7
 on:
   push:
+<<<<<<< HEAD
     branches: [ main ]
+=======
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+
+  workflow_dispatch:
+
+
+>>>>>>> 60a29fb37c679adc4f2472c156fa95296a55ebd7
 jobs:
   build-and-deploy:
     name: Build and Deploy
     runs-on: ubuntu-latest
 
     steps:
+<<<<<<< HEAD
     - name: Checkout
       uses: actions/checkout@v2
 
     - name: Build
       run: npm install
+=======
+      - uses: actions/checkout@v2
+      - name: Run a one-line script
+   
+>>>>>>> 60a29fb37c679adc4f2472c156fa95296a55ebd7
 
     - name: Test
       run: npm run test
