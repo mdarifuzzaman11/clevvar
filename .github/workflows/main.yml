@@ -22,5 +22,5 @@ jobs:
       run: |
         git config --global user.name 'Md Arifuzzaman'
         git config --global user.email 'md.arifuzzaman@mail.citytech.cuny.edy'
-        git remote set-url origin https://github.com/mdarifuzzaman11/clevvar-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}    
+        git remote set-url origin https://github.com/mdarifuzzaman11/clevvar.git-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}    
         npm run deploy
